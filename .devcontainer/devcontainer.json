@@ -1,18 +1,10 @@
 {
-  "name": "Ubuntu Desktop GUI",
+  "name": "Ubuntu Desktop",
   "image": "://microsoft.com",
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {
-      "version": "latest",
-      "password": "vscode",
-      "webPort": 6080
+      "version": "latest"
     }
   },
-  "forwardPorts":,
-  "portsAttributes": {
-    "6080": {
-      "label": "Ubuntu GUI Desktop",
-      "onAutoForward": "openBrowser"
-    }
-  }
+  "forwardPorts": [6080]
 }
